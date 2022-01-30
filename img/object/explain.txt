@@ -1,0 +1,7 @@
+oneToNine pixel location (x , y)
+0 0 ~ 16 16 :0
+16 16 ~ 32 32 :1
+48 48:2
+64 64: 3
+etc 
+	

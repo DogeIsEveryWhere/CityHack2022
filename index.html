@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>City hack 2022 Edutech Demo: The game</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/character.css">
+        <link rel="stylesheet" type="text/css" href="css/features.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <audio controls autoplay loop hidden id ="bgm1">
+            <source src="music/bgm1.mp3" type="audio/mpeg">
+        </audio>
+        
+        <input id="bgm1Player" type="image" onclick="checkMusicState();" src="img/object/stopMusic.png" style="border: double;" height="80" width="100"/> 
+        <div class="game_container">
+            <canvas id="canvas_game" width="677px" height="335px"></canvas>
+            <div id="guy">
+                <img id="charaImg" src="img/character/idle.png">
+            </div>
+        </div>
+        <!--   hidden="true"
+        <div id="backgroud">
+            <img id="backgroundImg" src="img/background/background_big1.png">
+        </div>
+        -->
+        <script src="js/character.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/world.js"></script>
+        <script src="js/bgLoading.js"></script>
+        <script src="js/questionData.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/features.js"></script>
+        
+    </body>
+</html>

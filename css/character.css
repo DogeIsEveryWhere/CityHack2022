@@ -1,0 +1,26 @@
+
+
+#guy {
+      position:absolute;
+      height:50px;
+      width:50px;
+      
+      /*outline:1px solid black;
+      background-color: red;
+      */
+      left: auto;
+      bottom:30%;
+      right: 91.5%;
+
+
+
+      
+      
+
+}
+
+
+#charaImg{
+    width: 100%;  
+    height: 100%;  
+}

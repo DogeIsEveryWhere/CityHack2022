@@ -1,0 +1,15 @@
+#musicButton{
+    
+    background-image: url("../img/object/music.png");
+    background-repeat: no-repeat;
+}
+button {
+    display:none;
+}
+
+#testbutton{
+    z-index: 3;
+    margin: auto;
+
+    right: 10%;
+}
